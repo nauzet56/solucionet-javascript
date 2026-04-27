@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Solucionet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Solucionet</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Soluciones Digitales Lanzarote</h1>
+            <p>Especialistas en desarrollo web y software a medida.</p>
+            <a href="#gestion" class="btn">Empezar ahora</a>
+        </div>
+    </section>
+
+    <section id="gestion" class="admin-section">
+        <h2>Panel de Control</h2>
+        <div class="botones-grupo">
+            <button onclick="crearItem()">Nuevo Elemento</button>
+            <button onclick="editarTodo()">Cambiar Estilos</button>
+            <button onclick="borrarItem()">Quitar Último</button>
+        </div>
+        <div id="lista-elementos"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
